@@ -15,4 +15,3 @@ export const getAttractions = () => {
         )
 }
 
-console.log("criminal data")
