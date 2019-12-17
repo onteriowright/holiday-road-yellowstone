@@ -1,11 +1,11 @@
-import Settings from "../Settings.js";
+import Settings from "../../Settings.js";
 
 let eateryCollection = [];
 
-export const useEateries = () => eateryCollection.slice();
+export const UseEateries = () => eateryCollection.slice();
 
 export const saveEateries = eatery => {
-  return fetch("http://localhost:8088/itineraries", {
+  return fetch(`${Settings.localEateriesAPI}`, {
     method: "POST",
     headers: {
       "content-type": "application/json"

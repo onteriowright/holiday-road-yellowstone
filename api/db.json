@@ -1,3 +1,40 @@
 {
-  "itineraries": []
+  "itineraries": [
+    {
+      "businessName": "Deer Park Tavern",
+      "city": "Newark",
+      "state": "DE",
+      "wheelchairAccessible": false,
+      "petFriendly": false,
+      "wifi": true,
+      "diaperFacility": true,
+      "playground": true,
+      "restrooms": true,
+      "id": 1
+    },
+    {
+      "businessName": "Occidental Grill & Seafood",
+      "city": "Washington",
+      "state": "DC",
+      "wheelchairAccessible": false,
+      "petFriendly": false,
+      "wifi": false,
+      "diaperFacility": true,
+      "playground": true,
+      "restrooms": true,
+      "id": 2
+    },
+    {
+      "businessName": "Joe's Stone Crab",
+      "city": "Miami",
+      "state": "FL",
+      "wheelchairAccessible": false,
+      "petFriendly": false,
+      "wifi": false,
+      "diaperFacility": true,
+      "playground": true,
+      "restrooms": true,
+      "id": 3
+    }
+  ]
 }

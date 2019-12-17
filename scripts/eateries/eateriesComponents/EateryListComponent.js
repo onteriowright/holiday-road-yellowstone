@@ -1,16 +1,16 @@
-import { useEateries, saveEateries, getEateries } from "./EateryProvider.js";
+import { UseEateries } from "./EateryDataProvider.js";
 import { EateryComponent } from "./EateryComponent.js";
 
 const eventHub = document.querySelector(".container");
 const targetElement = document.querySelector(".eateries__preview");
 
 export const EateriesListComponent = () => {
-  const UseEateries = useEateries();
+  const useEateries = UseEateries();
 
   eventHub.addEventListener("eaterySelected", e => {
     const selectedEatery = e.detail.selectedEatery;
 
-    const matchingEateries = UseEateries.filter(eatery => {
+    const matchingEateries = useEateries.filter(eatery => {
       if (eatery.businessName === selectedEatery) {
         return eatery;
       }

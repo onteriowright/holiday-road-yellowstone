@@ -4,5 +4,6 @@ export default {
   weatherKey: "",
   graphhopperKey: "",
   eateries:
-    "http://holidayroad.nss.team/eateries?ameneties.playground=true&ameneties.diaperFacility=true"
+    "http://holidayroad.nss.team/eateries?ameneties.playground=true&ameneties.diaperFacility=true",
+  localEateriesAPI: "http://localhost:8088/itineraries"
 };
