@@ -2,3 +2,6 @@
   display: flex;
   flex-direction: column;
 }
+.eatery-info {
+  margin: 1.5em;
+}

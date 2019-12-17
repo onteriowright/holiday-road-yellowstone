@@ -1,16 +1,16 @@
 export const EateryComponent = eatery => {
   return `
   <section eatery-card>
-      <div>Eatery: ${eatery.businessName}</div>
-      <div>City: ${eatery.city}</div>
-      <div>State: ${eatery.state}</div>
-      <div>Wheel Chair Accessible: ${eatery.ameneties.wheelchairAccessible}</div>
-      <div>Pet Friendly: ${eatery.ameneties.petFriendly}</div>
-      <div>Wifi: ${eatery.ameneties.wifi}</div>
-      <div>Diaper Facility: ${eatery.ameneties.diaperFacility}</div>
-      <div>Playground for kids: ${eatery.ameneties.playground}</div>
-      <div>Restrooms: ${eatery.ameneties.restrooms}</div>
-      <div>Description: ${eatery.description}</div>
+      <div class="eatery-info">Eatery: ${eatery.businessName}</div>
+      <div class="eatery-info">City: ${eatery.city}</div>
+      <div class="eatery-info">State: ${eatery.state}</div>
+      <div class="eatery-info">Wheel Chair Accessible: ${eatery.ameneties.wheelchairAccessible}</div>
+      <div class="eatery-info">Pet Friendly: ${eatery.ameneties.petFriendly}</div>
+      <div class="eatery-info">Wifi: ${eatery.ameneties.wifi}</div>
+      <div class="eatery-info">Diaper Facility: ${eatery.ameneties.diaperFacility}</div>
+      <div class="eatery-info">Playground for kids: ${eatery.ameneties.playground}</div>
+      <div class="eatery-info">Restrooms: ${eatery.ameneties.restrooms}</div>
+      <div class="eatery-info">Description: ${eatery.description}</div>
     </section>
   `;
 };
