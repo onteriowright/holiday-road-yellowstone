@@ -1,7 +1,7 @@
-import { useAttractions } from "./AttractionProvider.js"
+
 
 const eventHub = document.querySelector(".container")
-const contentTarget = document.querySelector(".attractionsDetail")
+
 
 
 
@@ -39,15 +39,6 @@ eventHub.addEventListener("click", clickEvent =>{
 }
 
 
-
-// export const handleCloseDialog = () => {
-//   eventHub.addEventListener("click", clickEvent => {
-
-//           if (clickEvent.target.id === "button--close") {
-//               clickEvent.target.parentNode.close()
-//           }
-//       })
-// }
 
 
 
