@@ -10,11 +10,7 @@ const contentTarget = document.querySelector(".attractions__preview")
 export const AttractionsListComponent = () => {
   const attractionListCollection = useAttractions()
 
-  // const renderDetailButton = attractions => {
-  //   contentTarget.innerHTML = `
-  //   <button id="detailButton">Details</button>
-
-  //   `
+  
 
   eventHub.addEventListener('attractionSelected', changeEvent => {
 
