@@ -1,7 +1,3 @@
-.eatery-card {
-  display: flex;
-  flex-direction: column;
-}
-.eatery-info {
-  margin: 1.5em;
-}
+@import "dropdowns.css";
+@import "itineraryPreview.css";
+@import "weather.css";
