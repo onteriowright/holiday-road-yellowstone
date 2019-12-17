@@ -1,6 +1,6 @@
 import { EateryListcomponent } from "./eateries/EaterySelect.js";
 import { getEateries } from "./eateries/EateryProvider.js";
-import Settings from "./Settings.js";
+import { EateriesListComponent } from "./eateries/EateriesList.js";
 
 getEateries().then(EateryListcomponent);
-`${Settings.npsKey};`;
+getEateries().then(EateriesListComponent)
