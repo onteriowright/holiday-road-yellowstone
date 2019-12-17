@@ -1,3 +1,7 @@
-    import AttractionsSelect from "./attractions/AttractionsSelect.js";
+import AttractionsSelect from "./attractions/AttractionsSelect.js"
+import { getAttractions } from "./attractions/AttractionProvider.js"
 
-    AttractionsSelect()
+   
+
+getAttractions().then(AttractionsSelect)
+
