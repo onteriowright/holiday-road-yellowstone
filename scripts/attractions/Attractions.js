@@ -5,14 +5,6 @@ const AttractionsComponent = (attractions) => {
             <div class="attractions__name">
                 <h1>${attractions.name}</h1>
             </div>
-<<<<<<< HEAD
-        <div>state: ${attractions.state}</div>
-        <div>city: ${attractions.city}</div>
-        <div>description: ${attractions.description}</div>
-        <div>souvenirs: ${attractions.ameneties.souvenirs}</div>
-        <div>restrooms: ${attractions.ameneties.restrooms}</div>
-        <button class ="">details</button>
-=======
         <div>
         <button id ="detailsButton">Learn More</button>
             
@@ -31,7 +23,6 @@ const AttractionsComponent = (attractions) => {
       
       </dialog>
       </div>
->>>>>>> master
      </section>
     `
 }
