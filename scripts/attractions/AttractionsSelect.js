@@ -1,51 +1,58 @@
-import useAttractions from "./attractions/AttractionsSelect.js"
+import { useAttractions } from "./AttractionProvider.js"
 
-const contentTarget = document.querySelector('.attractionsDropdown')
+const contentTarget = document.querySelector(".attractionsDropdown")
 const eventHub = document.querySelector(".container")
 
+
+
+
 const AttractionsSelect = () => {
-    const attractions = useAttractions()
 
-// eventHub.addEventListener("change", changeEvent => {
-//         if (changeEvent.target.id === "attractionsSelect") {
-//             const selectedAttractions = changeEvent.target.value
-//             const message = new CustomEvent("attractionsSelected", {
-//                 detail: {
-//                     attractions: selectedAttractions
-//                 }
-//             })
-         
-//             eventHub.dispatchEvent(message)
-//         }
-//     })   
 
-// eventHub.addEventListener("change", changeEvent => {
-//         if (changeEvent.target.classList.contains("dropDown")) {
-//             const selectedAttractions = changeEvent.target.value
+  const attractions = useAttractions()
 
-//             const message = new CustomEvent("attractionsSelected", {
-//                 detail: {
-//                     attractions: selectedAttractions
-//                 }
-//             })
+  eventHub.addEventListener("change", changeEvent => {
+    if (changeEvent.target.classList.contains("dropDown")) {
+      const selectedAttraction = changeEvent.target.value
+      console.log(selectedAttraction)
 
-//             eventHub.dispatchEvent(message)
-//         }
-//     })
+      const message = new CustomEvent("attractionSelected", {
 
-    const render = attractionsCollection => {
+        detail: {
+          location: selectedAttraction
+
+        }
+
+      })
+
+      eventHub.dispatchEvent(message)
+
+    }
+
+
+
+
+  })
+
+
+
+  const render = (collectedAttractions) => {
+
     contentTarget.innerHTML = `
             <select class="dropDown" id="attractionsSelect">
-    ${
-                    attractions.map(attractions =>
-                        `<option value="${attractions}">Attractions ${attractions}</option>`
-                    )
-                }
-            </select>
-        `
+    <option value="0">Please select a attraction...</option>
+    
+    
+    
+    ${collectedAttractions.sort().map(
+      places => `<option id="attractionsSelect">${places.name}</option>`
+
+    )}
+    </select>`
   }
 
-  render()
+  render(attractions)
+
 }
 
 export default AttractionsSelect
