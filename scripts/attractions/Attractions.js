@@ -10,7 +10,7 @@ const AttractionsComponent = (attractions) => {
         <div>description: ${attractions.description}</div>
         <div>souvenirs: ${attractions.ameneties.souvenirs}</div>
         <div>restrooms: ${attractions.ameneties.restrooms}</div>
-        <button class ="detailsButton">details</button>
+        <button class ="">details</button>
      </section>
     `
 }
