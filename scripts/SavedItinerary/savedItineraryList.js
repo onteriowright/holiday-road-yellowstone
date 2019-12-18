@@ -1,5 +1,5 @@
-import { saveItinerary, getIt, useItineraries } from "./SavedItineraryData.js"
-import itineraryAside from "./SavedItinerary.js"
+import { saveItinerary, getIt, useItineraries } from "./savedItineraryData.js"
+import itineraryAside from "./savedItinerary.js"
 
 // add event listeners and object for posting new itinerary 
 
