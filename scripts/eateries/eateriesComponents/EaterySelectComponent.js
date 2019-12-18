@@ -20,8 +20,8 @@ export const EaterySelectListcomponent = () => {
 
   const renderData = eateryCollection => {
     targetElement.innerHTML = `
-      <select id="selectEatery">
-        <option value="0" class="dropdown">Choose Your Eatery.....</option>
+      <select id="selectEatery" class="dropdown">
+        <option value="0">Choose Your Eatery.....</option>
         ${eateryCollection
           .map(
             eatery =>

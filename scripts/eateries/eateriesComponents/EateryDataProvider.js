@@ -15,7 +15,7 @@ export const saveEateries = eatery => {
 };
 
 export const getEateries = () => {
-  return fetch(`${Settings.eateries}`)
+  return fetch(`${Settings.eateriesAPI}`)
     .then(response => response.json())
     .then(parsedEateries => {
       eateryCollection = parsedEateries.slice();

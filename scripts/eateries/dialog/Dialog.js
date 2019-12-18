@@ -1,4 +1,4 @@
-export const DailogComponent = () => {
+export const DialogComponent = () => {
   const eventHub = document.querySelector(".container");
 
   eventHub.addEventListener("click", event => {
@@ -10,10 +10,10 @@ export const DailogComponent = () => {
 
   eventHub.addEventListener("click", event => {
     if (event.target.id.startsWith("openDialog--")) {
-      const dailogElement = document.querySelector(
+      const dialogElement = document.querySelector(
         `#${event.target.id} + dialog`
       );
-      dailogElement.showModal();
+      dialogElement.showModal();
     }
   });
 };

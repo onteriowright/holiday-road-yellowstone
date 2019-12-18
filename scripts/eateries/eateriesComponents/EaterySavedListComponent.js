@@ -1,44 +1,28 @@
-import { saveEateries, UseEateries } from "./EateryDataProvider.js";
-import { AsideEateryComponent } from "./asideEateryComponent.js";
-
+import { saveEateries } from "./EateryDataProvider.js";
+import { asideEateriesComponent } from "../asideEateriesComponents/asideEateriesComponent.js";
 const eventHub = document.querySelector(".container");
 const targetElement = document.querySelector(".itinerary");
 
 export const SavedEateryListComponent = () => {
-  const useEateries = UseEateries();
+  eventHub.addEventListener("click", clickEvent => {
+    if (clickEvent.target.id === "saveItinerary") {
+      const eateryName = document.querySelector(".eatery-name").textContent;
+      const parkName = document.querySelector(".parkCard__name").textContent;
+      const attractionName = document.querySelector(".attractions__name")
+        .textContent;
 
-  eventHub.addEventListener("eaterySelected", e => {
-    eventHub.addEventListener("click", evt => {
-      if (evt.target.classList.contains("saveItinerary")) {
-        const savedEatery = e.detail.selectedEatery;
-
-        useEateries.filter(currentEatery => {
-          if (currentEatery.businessName === savedEatery) {
-            const savedEatery = {
-              businessName: currentEatery.businessName,
-              city: currentEatery.city,
-              state: currentEatery.state,
-              wheelchairAccessible:
-                currentEatery.ameneties.wheelchairAccessible,
-              petFriendly: currentEatery.ameneties.petFriendly,
-              wifi: currentEatery.ameneties.wifi,
-              diaperFacility: currentEatery.ameneties.diaperFacility,
-              playground: currentEatery.ameneties.playground,
-              restrooms: currentEatery.ameneties.restrooms
-            };
-            saveEateries(savedEatery);
-          }
-        });
-        renderData(currentEatery);
-      }
-    });
+      const savedItinerary = {
+        eateryName: eateryName,
+        parkName: parkName,
+        attractionName: attractionName
+      };
+      saveEateries(savedItinerary).then(renderData(savedItinerary));
+    }
   });
 
-  const renderData = data => {
+  const renderData = asideEateriesCollection => {
     targetElement.innerHTML = `
-      <section>
-        ${AsideEateryComponent(data)}
-      </section>
+  ${asideEateriesComponent(asideEateriesCollection)}
     `;
   };
 };
