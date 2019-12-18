@@ -17,3 +17,17 @@ export const getAttractions = () => {
         )
 }
 
+export const saveAttractions = () => {
+    return fetch("http://holidayroad.nss.team/bizarreries")
+    .then(response => response.json())
+    .then(
+        parsedAttractions => {
+            console.log(parsedAttractions)
+            attractions = parsedAttractions.slice()
+        
+        }
+
+    )
+
+
+}

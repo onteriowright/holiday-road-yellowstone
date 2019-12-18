@@ -35,6 +35,66 @@
       "playground": true,
       "restrooms": true,
       "id": 3
+    },
+    {
+      "businessName": "McClard's BBQ",
+      "city": "Hot Springs",
+      "state": "AR",
+      "wheelchairAccessible": false,
+      "petFriendly": false,
+      "wifi": true,
+      "diaperFacility": true,
+      "playground": true,
+      "restrooms": true,
+      "id": 4
+    },
+    {
+      "businessName": "McClard's BBQ",
+      "city": "Hot Springs",
+      "state": "AR",
+      "wheelchairAccessible": false,
+      "petFriendly": false,
+      "wifi": true,
+      "diaperFacility": true,
+      "playground": true,
+      "restrooms": true,
+      "id": 5
+    },
+    {
+      "businessName": "McClard's BBQ",
+      "city": "Hot Springs",
+      "state": "AR",
+      "wheelchairAccessible": false,
+      "petFriendly": false,
+      "wifi": true,
+      "diaperFacility": true,
+      "playground": true,
+      "restrooms": true,
+      "id": 6
+    },
+    {
+      "businessName": "Deer Park Tavern",
+      "city": "Newark",
+      "state": "DE",
+      "wheelchairAccessible": false,
+      "petFriendly": false,
+      "wifi": true,
+      "diaperFacility": true,
+      "playground": true,
+      "restrooms": true,
+      "id": 7
+    },
+    {
+      "businessName": "Joe's Stone Crab",
+      "city": "Miami",
+      "state": "FL",
+      "wheelchairAccessible": false,
+      "petFriendly": false,
+      "wifi": false,
+      "diaperFacility": true,
+      "playground": true,
+      "restrooms": true,
+      "id": 8
     }
   ]
 }
