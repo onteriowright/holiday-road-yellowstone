@@ -2,8 +2,8 @@ const AttractionsComponent = (attractions) => {
    return `
    
     <section class="attractions">
-            <div>
-                <h1 class="attractions__name">${attractions.name}</h1>
+            <div class="attractions__name">
+                <h1 class="attractionCard__name">${attractions.name}</h1>
             </div>
         <div>
         <button id ="detailsButton">Learn More</button>
