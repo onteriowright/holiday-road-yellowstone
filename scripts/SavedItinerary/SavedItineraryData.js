@@ -4,20 +4,21 @@
 
 // export const useItinerary = () => itinerary.slice()
 
+let itinerary = []
 
-export const saveItinerary = itinerary => {
-    fetch('http://localhost:8088/Itinerarys', {
-        method: "POST",
-        headers: {
-            "Content-Type": "application/json"
-        },
-        body: JSON.stringify(itinerary)
-    })
-    .then(getAttractions)
+const useItinerary = () => {
+  itinerary = useItinerary()
 }
 
-
-
+export const saveItinerary = itinerary => {
+  fetch('http://localhost:8088/Itinerary', {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json'
+    },
+    body: JSON.stringify(itinerary)
+  }).then(useItinerary)
+}
 
 // let itinerary = []
 
