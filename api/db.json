@@ -1,40 +1,54 @@
 {
   "itineraries": [
     {
-      "businessName": "Deer Park Tavern",
-      "city": "Newark",
-      "state": "DE",
-      "wheelchairAccessible": false,
-      "petFriendly": false,
-      "wifi": true,
-      "diaperFacility": true,
-      "playground": true,
-      "restrooms": true,
+      "attractionName": "Snake World",
+      "eateryName": "H&H Soul Food",
       "id": 1
     },
     {
-      "businessName": "Occidental Grill & Seafood",
-      "city": "Washington",
-      "state": "DC",
-      "wheelchairAccessible": false,
-      "petFriendly": false,
-      "wifi": false,
-      "diaperFacility": true,
-      "playground": true,
-      "restrooms": true,
+      "attractionName": "Snake World",
+      "eateryName": "H&H Soul Food",
       "id": 2
     },
     {
-      "businessName": "Joe's Stone Crab",
-      "city": "Miami",
-      "state": "FL",
-      "wheelchairAccessible": false,
-      "petFriendly": false,
-      "wifi": false,
-      "diaperFacility": true,
-      "playground": true,
-      "restrooms": true,
+      "attractionName": "Largest Fork in the US",
+      "eateryName": "Hancock Inn",
       "id": 3
+    },
+    {
+      "attractionName": "Largest Fork in the US",
+      "eateryName": "Hancock Inn",
+      "id": 4
+    },
+    {
+      "parkName": "Belmont-Paul Women's Equality",
+      "attractionName": "Snake World",
+      "eateryName": "Deer Park Tavern",
+      "id": 5
+    },
+    {
+      "parkName": "Belmont-Paul Women's Equality",
+      "attractionName": "Snake World",
+      "eateryName": "Deer Park Tavern",
+      "id": 6
+    },
+    {
+      "parkName": "Fort Davis",
+      "attractionName": "Giant Abraham Lincoln",
+      "eateryName": "El Pinto",
+      "id": 7
+    },
+    {
+      "parkName": "Fort Davis",
+      "attractionName": "Giant Abraham Lincoln",
+      "eateryName": "El Pinto",
+      "id": 8
+    },
+    {
+      "parkName": "Charles Pinckney",
+      "attractionName": "World’s Largest Egg",
+      "eateryName": "Hancock Inn",
+      "id": 9
     }
   ]
 }

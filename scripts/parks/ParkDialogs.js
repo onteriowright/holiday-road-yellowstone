@@ -9,6 +9,7 @@ eventHub.addEventListener("click", clickEvent =>{
     const dialogSiblingSelector = `#${clickEvent.target.id}+dialog`
     console.log(dialogSiblingSelector)
             const theDialog = document.querySelector(dialogSiblingSelector)
+           console.log(theDialog)
             theDialog.showModal()
     }
     if(clickEvent.target.id.startsWith("close--")){

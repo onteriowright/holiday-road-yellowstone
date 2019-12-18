@@ -1,7 +1,7 @@
 export const EateryComponent = eatery => {
   return `
-  <section eatery-card>
-      <div class="eatery-info"><h2>You Have Chosen:</h2> ${eatery.businessName}</div>
+  <section class="eatery-card">
+      <h2 class="eateryCard__name">${eatery.businessName}</h2>
       <button id="openDialog--${eatery.id}">Learn More</button>
         <dialog>
           <div class="eatery-info">City: ${eatery.city}</div>
