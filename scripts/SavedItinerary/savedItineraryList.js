@@ -29,11 +29,18 @@ const saveItineraryComponent = () =>{
       "eateryName":eateryName
          
     }
-    saveItinerary(newItinerary)
+    saveItinerary(newItinerary).then(render(newItinerary))
   }
 })
-const it=useItineraries()
-contentTarget.innerHTML=itineraryAside(it)
+
+
+const render = (collection) =>{
+  contentTarget.innerHTML= `
+  ${
+    itineraryAside(collection)
+  }
+  `
+}
 
 }
 
