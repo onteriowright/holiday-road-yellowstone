@@ -10,7 +10,7 @@ import AttractionsSelect from "./attractions/AttractionsSelect.js";
 import { getAttractions } from "./attractions/AttractionProvider.js";
 import { AttractionsListComponent } from "./attractions/AttractionsList.js";
 import { LearnMoreButton } from "./attractions/LearnMore.js";
-import saveItineraryComponent from "./SavedItinerary/savedItineraryList.js";
+import saveItineraryComponent from "./SavedItinerary/SavedItineraryList.js";
 
 saveItineraryComponent()
 
