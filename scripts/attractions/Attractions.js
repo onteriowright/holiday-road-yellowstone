@@ -3,7 +3,7 @@ const AttractionsComponent = (attractions) => {
    
     <section class="attractions">
             <div class="attractions__name">
-                <h1>${attractions.name}</h1>
+                <h1 class"attractionCard">${attractions.name}</h1>
             </div>
         <div>
         <button id ="detailsButton">Learn More</button>

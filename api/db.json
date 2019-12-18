@@ -35,6 +35,66 @@
       "playground": true,
       "restrooms": true,
       "id": 3
+    },
+    {
+      "businessName": "Jack Fry's",
+      "city": "Louisville",
+      "state": "KY",
+      "wheelchairAccessible": true,
+      "petFriendly": false,
+      "wifi": false,
+      "diaperFacility": true,
+      "playground": true,
+      "restrooms": true,
+      "id": 4
+    },
+    {
+      "businessName": "El Charro Cafe",
+      "city": "Tucson",
+      "state": "AZ",
+      "wheelchairAccessible": false,
+      "petFriendly": false,
+      "wifi": true,
+      "diaperFacility": true,
+      "playground": true,
+      "restrooms": true,
+      "id": 5
+    },
+    {
+      "businessName": "El Charro Cafe",
+      "city": "Tucson",
+      "state": "AZ",
+      "wheelchairAccessible": false,
+      "petFriendly": false,
+      "wifi": true,
+      "diaperFacility": true,
+      "playground": true,
+      "restrooms": true,
+      "id": 6
+    },
+    {
+      "businessName": "El Charro Cafe",
+      "city": "Tucson",
+      "state": "AZ",
+      "wheelchairAccessible": false,
+      "petFriendly": false,
+      "wifi": true,
+      "diaperFacility": true,
+      "playground": true,
+      "restrooms": true,
+      "id": 7
+    },
+    {
+      "businessName": "McClard's BBQ",
+      "city": "Hot Springs",
+      "state": "AR",
+      "wheelchairAccessible": false,
+      "petFriendly": false,
+      "wifi": true,
+      "diaperFacility": true,
+      "playground": true,
+      "restrooms": true,
+      "id": 8
     }
   ]
 }

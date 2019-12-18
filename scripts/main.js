@@ -11,6 +11,13 @@ import AttractionsSelect from "./attractions/AttractionsSelect.js";
 import { getAttractions } from "./attractions/AttractionProvider.js";
 import { AttractionsListComponent } from "./attractions/AttractionsList.js";
 import { LearnMoreButton } from "./attractions/LearnMore.js";
+// import {SaveItinerary} from "./SavedItinerary/SavedItineraryData.js"
+import SavedItineraryListComponent from "./SavedItinerary/SavedItineraryList.js"
+
+// import { getItinerary } from "./SavedItineraryData.js";
+// import ItineraryFormComponent from "./SavedItinerary/SavedItineraryForm.js"
+// import ItineraryListComponent from "./SavedItinerary/SavedItineraryList.js"
+
 getEateries()
   .then(EaterySelectListcomponent)
   .then(EateriesListComponent)
@@ -25,4 +32,20 @@ getParks()
 getAttractions()
   .then(AttractionsSelect)
   .then(AttractionsListComponent);
-getAttractions().then(LearnMoreButton);
+
+getAttractions()
+  .then(LearnMoreButton);
+
+  // SaveItinerary()
+  //   .then()
+SavedItineraryListComponent()
+
+// getAttractions()
+//     .then(getItinerary);
+
+// ItineraryFormComponent()
+
+// ItineraryListComponent()
+
+// AttractionsListComponent()
+
