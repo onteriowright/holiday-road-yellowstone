@@ -19,7 +19,10 @@
 
 //         }
 
-//       })
+  eventHub.addEventListener("change", changeEvent => {
+    if (changeEvent.target.classList.contains("dropDown")) {
+      const selectedAttraction = changeEvent.target.value
+      
 
 //       eventHub.dispatchEvent(message)
 
