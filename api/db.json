@@ -1,40 +1,156 @@
 {
   "itineraries": [
     {
-      "businessName": "Deer Park Tavern",
-      "city": "Newark",
-      "state": "DE",
-      "wheelchairAccessible": false,
-      "petFriendly": false,
-      "wifi": true,
-      "diaperFacility": true,
-      "playground": true,
-      "restrooms": true,
+      "attractionName": "Snake World",
+      "eateryName": "H&H Soul Food",
       "id": 1
     },
     {
-      "businessName": "Occidental Grill & Seafood",
-      "city": "Washington",
-      "state": "DC",
-      "wheelchairAccessible": false,
-      "petFriendly": false,
-      "wifi": false,
-      "diaperFacility": true,
-      "playground": true,
-      "restrooms": true,
+      "attractionName": "Snake World",
+      "eateryName": "H&H Soul Food",
       "id": 2
     },
     {
-      "businessName": "Joe's Stone Crab",
-      "city": "Miami",
-      "state": "FL",
-      "wheelchairAccessible": false,
-      "petFriendly": false,
-      "wifi": false,
-      "diaperFacility": true,
-      "playground": true,
-      "restrooms": true,
+      "attractionName": "Largest Fork in the US",
+      "eateryName": "Hancock Inn",
       "id": 3
+    },
+    {
+      "attractionName": "Largest Fork in the US",
+      "eateryName": "Hancock Inn",
+      "id": 4
+    },
+    {
+      "parkName": "Belmont-Paul Women's Equality",
+      "attractionName": "Snake World",
+      "eateryName": "Deer Park Tavern",
+      "id": 5
+    },
+    {
+      "parkName": "Belmont-Paul Women's Equality",
+      "attractionName": "Snake World",
+      "eateryName": "Deer Park Tavern",
+      "id": 6
+    },
+    {
+      "parkName": "Fort Davis",
+      "attractionName": "Giant Abraham Lincoln",
+      "eateryName": "El Pinto",
+      "id": 7
+    },
+    {
+      "parkName": "Fort Davis",
+      "attractionName": "Giant Abraham Lincoln",
+      "eateryName": "El Pinto",
+      "id": 8
+    },
+    {
+      "parkName": "Charles Pinckney",
+      "attractionName": "World’s Largest Egg",
+      "eateryName": "Hancock Inn",
+      "id": 9
+    },
+    {
+      "parkName": "Effigy Mounds",
+      "attractionName": "First Kiss Spot of the Obamas",
+      "eateryName": "DeLuca's",
+      "id": 10
+    },
+    {
+      "parkName": "Bryce Canyon",
+      "attractionName": "Giant Tattoo Needle",
+      "eateryName": "Deer Park Tavern",
+      "id": 11
+    },
+    {
+      "parkName": "Bryce Canyon",
+      "attractionName": "Giant Tattoo Needle",
+      "eateryName": "Deer Park Tavern",
+      "id": 12
+    },
+    {
+      "parkName": "Bryce Canyon",
+      "attractionName": "World’s Most Scenic Urinal",
+      "eateryName": "The Peppermill Restaurant and Fireside Lounge",
+      "id": 13
+    },
+    {
+      "parkName": "Bryce Canyon",
+      "attractionName": "World’s Most Scenic Urinal",
+      "eateryName": "The Peppermill Restaurant and Fireside Lounge",
+      "id": 14
+    },
+    {
+      "parkName": "Bryce Canyon",
+      "attractionName": "World’s Most Scenic Urinal",
+      "eateryName": "The Peppermill Restaurant and Fireside Lounge",
+      "id": 15
+    },
+    {
+      "parkName": "Bryce Canyon",
+      "attractionName": "World’s Most Scenic Urinal",
+      "eateryName": "The Peppermill Restaurant and Fireside Lounge",
+      "id": 16
+    },
+    {
+      "parkName": "Bryce Canyon",
+      "attractionName": "World’s Most Scenic Urinal",
+      "eateryName": "The Peppermill Restaurant and Fireside Lounge",
+      "id": 17
+    },
+    {
+      "parkName": "Bryce Canyon",
+      "attractionName": "World’s Most Scenic Urinal",
+      "eateryName": "The Peppermill Restaurant and Fireside Lounge",
+      "id": 18
+    },
+    {
+      "parkName": "Belmont-Paul Women's Equality",
+      "attractionName": "Fountain of Youth",
+      "eateryName": "DeLuca's",
+      "id": 19
+    },
+    {
+      "parkName": "Charles Pinckney",
+      "attractionName": "World’s Largest Egg",
+      "eateryName": "Scott's Bar-B-Que",
+      "id": 20
+    },
+    {
+      "parkName": "Cape Cod",
+      "attractionName": "World’s Largest ‘Gone With the Wind’ Collection",
+      "eateryName": "DeLuca's",
+      "id": 21
+    },
+    {
+      "parkName": "Dry Tortugas",
+      "attractionName": "Snake World",
+      "eateryName": "The Drover Restaurant & Lounge",
+      "id": 22
+    },
+    {
+      "parkName": "Fort Bowie",
+      "attractionName": "Largest Fork in the US",
+      "eateryName": "El Pinto",
+      "id": 23
+    },
+    {
+      "parkName": "Cape Cod",
+      "attractionName": "Mini Statue of Liberty",
+      "eateryName": "The Peppermill Restaurant and Fireside Lounge",
+      "id": 24
+    },
+    {
+      "parkName": "Bryce Canyon",
+      "attractionName": "Largest Fork in the US",
+      "eateryName": "The Peppermill Restaurant and Fireside Lounge",
+      "id": 25
+    },
+    {
+      "parkName": "Cape Cod",
+      "attractionName": "Elvis Memorial Chapel",
+      "eateryName": "Commander's Palace",
+      "id": 26
     }
   ]
 }

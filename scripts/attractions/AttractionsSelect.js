@@ -14,7 +14,7 @@ const AttractionsSelect = () => {
   eventHub.addEventListener("change", changeEvent => {
     if (changeEvent.target.classList.contains("dropDown")) {
       const selectedAttraction = changeEvent.target.value
-      console.log(selectedAttraction)
+      
 
       const message = new CustomEvent("attractionSelected", {
 
