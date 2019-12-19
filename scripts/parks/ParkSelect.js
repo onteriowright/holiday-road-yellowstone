@@ -1,5 +1,6 @@
 import { useParks } from "./ParkProvider.js";
 
+
 const eventHub=document.querySelector(".container")
 const contentElement=document.querySelector(".parksDropdown")
 
@@ -10,7 +11,7 @@ const parksSelect = () => {
    
    eventHub.addEventListener("change", changeEvent =>{
      if(changeEvent.target.id==="parksDropdown"){
-       
+     
        const parkSelected=changeEvent.target.value
        const message = new CustomEvent("parkSelected",{
          detail:{
@@ -18,7 +19,7 @@ const parksSelect = () => {
          }
        })
        eventHub.dispatchEvent(message)  
-     }
+     } 
    })
 
 
