@@ -4,13 +4,13 @@ let eateryCollection = [];
 
 export const UseEateries = () => eateryCollection.slice();
 
-export const saveEateries = eatery => {
+export const saveItinerary = itinerary => {
   return fetch(`${Settings.localEateriesAPI}`, {
     method: "POST",
     headers: {
       "content-type": "application/json"
     },
-    body: JSON.stringify(eatery)
+    body: JSON.stringify(itinerary)
   }).then(getEateries);
 };
 

@@ -151,6 +151,18 @@
       "attractionName": "Elvis Memorial Chapel",
       "eateryName": "Commander's Palace",
       "id": 26
+    },
+    {
+      "parkName": "African American Civil War Memorial",
+      "attractionName": "Fountain of Youth",
+      "eateryName": "Tops Diner",
+      "id": 27
+    },
+    {
+      "parkName": "Big Cypress",
+      "attractionName": "Big White Shirt",
+      "eateryName": "Deer Park Tavern",
+      "id": 28
     }
   ]
 }

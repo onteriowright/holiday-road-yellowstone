@@ -5,5 +5,5 @@ export default {
   graphhopperKey: "",
   eateriesAPI:
     "http://holidayroad.nss.team/eateries?ameneties.playground=true&ameneties.diaperFacility=true",
-  localEateriesAPI: "http://localhost:8088/itineraries"
+  localEateriesAPI: "http://localhost:3000/itineraries"
 };
