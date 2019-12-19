@@ -1,3 +1,8 @@
 @import "dropdowns.css";
 @import "itineraryPreview.css";
 @import "weather.css";
+@import "aside.css";
+
+body{
+  background-color: rgb(155, 155, 112);
+}

@@ -1,4 +1,4 @@
-export const DailogComponent = () => {
+export const DialogComponent = () => {
   const eventHub = document.querySelector(".container");
 
   eventHub.addEventListener("click", event => {

@@ -151,6 +151,36 @@
       "attractionName": "Elvis Memorial Chapel",
       "eateryName": "Commander's Palace",
       "id": 26
+    },
+    {
+      "parkName": "Big Cypress",
+      "attractionName": "Snake World",
+      "eateryName": "Deer Park Tavern",
+      "id": 27
+    },
+    {
+      "parkName": "Bryce Canyon",
+      "attractionName": "Elvis Memorial Chapel",
+      "eateryName": "The Cozy Inn",
+      "id": 28
+    },
+    {
+      "parkName": "Bryce Canyon",
+      "attractionName": "Largest Fork in the US",
+      "eateryName": "Joe's Stone Crab",
+      "id": 29
+    },
+    {
+      "parkName": "Augusta Canal",
+      "attractionName": "Snake World",
+      "eateryName": "H&H Soul Food",
+      "id": 30
+    },
+    {
+      "parkName": "Camp Nelson",
+      "attractionName": "Snake World",
+      "eateryName": "Joe's Stone Crab",
+      "id": 31
     }
   ]
 }
