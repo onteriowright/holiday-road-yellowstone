@@ -1,5 +1,17 @@
-.weatherSection{
-  border: 1px solid black; 
-  min-width: 700px ;
+.weatherSection {
+  border: 1px solid black;
+  min-width: 700px;
   min-height: 200px;
+}
+.weather-display {
+  display: flex;
+  justify-content: space-evenly;
+}
+.weather-cards {
+  border: 1px dotted;
+  margin: 5px;
+  padding: 25px;
+}
+.weather-info {
+  padding: 15px;
 }

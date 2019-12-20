@@ -10,9 +10,8 @@ import AttractionsSelect from "./attractions/AttractionsSelect.js";
 import { getAttractions } from "./attractions/AttractionProvider.js";
 import { AttractionsListComponent } from "./attractions/AttractionsList.js";
 import { LearnMoreButton } from "./attractions/LearnMore.js";
-import saveItineraryComponent from "./SavedItinerary/savedItineraryList.js";
+import saveItineraryComponent from "./savedItinerary/savedItineraryList.js";
 import { WeatherListComponent } from "./weather/weatherListComponent.js";
-import { getWeather } from "./weather/WeatherProvider.js";
 
 saveItineraryComponent();
 
@@ -28,7 +27,7 @@ getParks()
 
 getAttractions()
   .then(AttractionsSelect)
-  .then(AttractionsListComponent);
-getAttractions().then(LearnMoreButton);
+  .then(AttractionsListComponent)
+  .then(LearnMoreButton);
 
 WeatherListComponent();
