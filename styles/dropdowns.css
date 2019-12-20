@@ -1,6 +1,6 @@
-.dropdownContainer{
-  display:flex; 
-  flex-wrap: wrap; 
+.dropdownContainer {
+  display: flex;
+  flex-wrap: wrap;
 }
 .parksDropdown{
   flex-basis: 20%; 

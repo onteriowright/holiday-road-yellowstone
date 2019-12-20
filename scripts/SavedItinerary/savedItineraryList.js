@@ -11,7 +11,7 @@ import DirectionList from "../directions/DirectionList.js"
 const eventHub = document.querySelector(".container")
 const contentTarget=document.querySelector(".itinerary")
 
-const saveItineraryComponent = () =>{
+const saveItineraryComponent = () => {
  
   eventHub.addEventListener("click", e =>{
    
@@ -45,5 +45,6 @@ const render = (collection) =>{
 
 }
 
+  
 
-export default saveItineraryComponent
+export default saveItineraryComponent;

@@ -191,13 +191,13 @@
     {
       "parkName": "African American Civil War Memorial",
       "attractionName": "Big White Shirt",
-      "eateryName": "McClard's BBQ",
+      "eateryName": "El Charro Cafe",
       "id": 33
     },
     {
       "parkName": "African American Civil War Memorial",
       "attractionName": "Big White Shirt",
-      "eateryName": "Deer Park Tavern",
+      "eateryName": "El Charro Cafe",
       "id": 34
     },
     {
@@ -216,6 +216,19 @@
       "parkName": "African American Civil War Memorial",
       "attractionName": "Big White Shirt",
       "eateryName": "Deer Park Tavern",
+      "eateryName": "El Charro Cafe",
+      "id": 35
+    },
+    {
+      "parkName": "Cuyahoga Valley",
+      "attractionName": "Giant Tattoo Needle",
+      "eateryName": "Joe's Stone Crab",
+      "id": 36
+    },
+    {
+      "parkName": "Dry Tortugas",
+      "attractionName": "Owney the Stuffed Dog Postal Mascot",
+      "eateryName": "H&H Soul Food",
       "id": 37
     },
     {
