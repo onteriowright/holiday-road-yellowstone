@@ -1,7 +1,7 @@
-const parkComponent = (park) =>{
+const parkComponent = park => {
   return `
   <section class="parkCard">
-    <h2 class="parkCard__name">${park.name}</h2>
+    <h3 class="parkCard__name">${park.name}</h3>
     <div class="parksDialog">
     <button id="parks--${park.parkCode}">Learn More</button>
     <dialog class='dialog--park_info'>
@@ -14,8 +14,7 @@ const parkComponent = (park) =>{
     </dialog>
   </div>
   </section>
-  `
+  `;
+};
 
-}
-
-export default parkComponent
+export default parkComponent;

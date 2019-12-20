@@ -1,9 +1,9 @@
 export const EateryComponent = eatery => {
   return `
   <section class="eatery-card">
-      <h2 class="eateryCard__name">${eatery.businessName}</h2>
+      <h3 class="eateryCard__name">${eatery.businessName}</h3>
       <button id="openDialog--${eatery.id}">Learn More</button>
-        <dialog>
+        <dialog class="eatery-dialog">
           <div class="eatery-info">City: ${eatery.city}</div>
           <div class="eatery-info">State: ${eatery.state}</div>
           <div class="eatery-info">Wheel Chair Accessible: ${eatery.ameneties.wheelchairAccessible}
