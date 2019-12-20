@@ -12,22 +12,23 @@ import { AttractionsListComponent } from "./attractions/AttractionsList.js";
 import { LearnMoreButton } from "./attractions/LearnMore.js";
 import saveItineraryComponent from "./savedItinerary/savedItineraryList.js";
 import { WeatherListComponent } from "./weather/weatherListComponent.js";
+import {EnableButtonEvent} from "./SavedItinerary/enableButton.js"
 
 saveItineraryComponent();
 
 getEateries()
-  .then(EaterySelectListcomponent)
+  .then(EaterySelectListcomponent).then(EnableButtonEvent)
   .then(EateriesListComponent)
   .then(DialogComponent);
 
 getParks()
   .then(() => parksSelect())
-  .then(() => parkListComponent())
+  .then(() => parkListComponent()).then(EnableButtonEvent)
   .then(() => parkDialogEvents());
 
 getAttractions()
   .then(AttractionsSelect)
-  .then(AttractionsListComponent)
+  .then(AttractionsListComponent).then(EnableButtonEvent)
   .then(LearnMoreButton);
 
 WeatherListComponent();

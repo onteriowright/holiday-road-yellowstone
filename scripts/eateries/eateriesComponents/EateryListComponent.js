@@ -20,10 +20,10 @@ export const EateriesListComponent = () => {
   });
   // I render eatery to the DOM
   const renderData = eateries => {
+    
+
     targetElement.innerHTML = `
-      <section>
-        ${eateries.map(eatery => EateryComponent(eatery))}
-      </section>
+        ${eateries.map(eatery => EateryComponent(eatery)).join(" ")}
   `;
   };
 };
