@@ -181,6 +181,144 @@
       "attractionName": "Snake World",
       "eateryName": "Joe's Stone Crab",
       "id": 31
+    },
+    {
+      "parkName": "Camp Nelson",
+      "attractionName": "Giant Tattoo Needle",
+      "eateryName": "The Cozy Inn",
+      "id": 32
+    },
+    {
+      "parkName": "African American Civil War Memorial",
+      "attractionName": "Big White Shirt",
+      "eateryName": "McClard's BBQ",
+      "id": 33
+    },
+    {
+      "parkName": "African American Civil War Memorial",
+      "attractionName": "Big White Shirt",
+      "eateryName": "Deer Park Tavern",
+      "id": 34
+    },
+    {
+      "parkName": "African American Civil War Memorial",
+      "attractionName": "Big White Shirt",
+      "eateryName": "McClard's BBQ",
+      "id": 35
+    },
+    {
+      "parkName": "African American Civil War Memorial",
+      "attractionName": "Elvis Memorial Chapel",
+      "eateryName": "McClard's BBQ",
+      "id": 36
+    },
+    {
+      "parkName": "African American Civil War Memorial",
+      "attractionName": "Big White Shirt",
+      "eateryName": "Deer Park Tavern",
+      "id": 37
+    },
+    {
+      "parkName": "African American Civil War Memorial",
+      "attractionName": "Big White Shirt",
+      "eateryName": "El Charro Cafe",
+      "id": 38
+    },
+    {
+      "parkName": "African American Civil War Memorial",
+      "attractionName": "Big White Shirt",
+      "eateryName": "McClard's BBQ",
+      "id": 39
+    },
+    {
+      "parkName": "African American Civil War Memorial",
+      "attractionName": "Big White Shirt",
+      "eateryName": "El Charro Cafe",
+      "id": 40
+    },
+    {
+      "parkName": "African American Civil War Memorial",
+      "attractionName": "Big White Shirt",
+      "eateryName": "El Charro Cafe",
+      "id": 41
+    },
+    {
+      "parkName": "African American Civil War Memorial",
+      "attractionName": "Giant Tattoo Needle",
+      "eateryName": "El Charro Cafe",
+      "id": 42
+    },
+    {
+      "parkName": "African American Civil War Memorial",
+      "attractionName": "Big White Shirt",
+      "eateryName": "McClard's BBQ",
+      "id": 43
+    },
+    {
+      "parkName": "African American Civil War Memorial",
+      "attractionName": "Big White Shirt",
+      "eateryName": "Occidental Grill & Seafood",
+      "id": 44
+    },
+    {
+      "parkName": "Cuyahoga Valley",
+      "attractionName": "Big White Shirt",
+      "eateryName": "Occidental Grill & Seafood",
+      "id": 45
+    },
+    {
+      "parkName": "Friendship Hill",
+      "attractionName": "Big White Shirt",
+      "eateryName": "Occidental Grill & Seafood",
+      "id": 46
+    },
+    {
+      "parkName": "Thomas Jefferson Memorial",
+      "attractionName": "Big White Shirt",
+      "eateryName": "Occidental Grill & Seafood",
+      "id": 47
+    },
+    {
+      "parkName": "Ozark",
+      "attractionName": "Big White Shirt",
+      "eateryName": "Occidental Grill & Seafood",
+      "id": 48
+    },
+    {
+      "parkName": "African American Civil War Memorial",
+      "attractionName": "Elvis Memorial Chapel",
+      "eateryName": "Occidental Grill & Seafood",
+      "id": 49
+    },
+    {
+      "parkName": "African American Civil War Memorial",
+      "attractionName": "Elvis Memorial Chapel",
+      "eateryName": "Commander's Palace",
+      "id": 50
+    },
+    {
+      "parkName": "Belmont-Paul Women's Equality",
+      "attractionName": "Giant Tattoo Needle",
+      "eateryName": "McClard's BBQ",
+      "id": 51
+    },
+    {
+      "parkName": "Belmont-Paul Women's Equality",
+      "attractionName": "Big White Shirt",
+      "eateryName": "Joe's Stone Crab",
+      "id": 52
+    },
+    {
+      "parkName": "Belmont-Paul Women's Equality",
+      "attractionName": "Avery’s Beverages",
+      "eateryName": "H&H Soul Food",
+      "id": 53
+    },
+    {
+      "parkName": "Belmont-Paul Women's Equality",
+      "attractionName": "Giant Tattoo Needle",
+      "eateryName": "Occidental Grill & Seafood",
+      "id": 54
     }
   ]
 }

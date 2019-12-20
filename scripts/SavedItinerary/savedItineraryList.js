@@ -1,5 +1,6 @@
 import { saveItinerary, getIt, useItineraries } from "./savedItineraryData.js"
 import itineraryAside from "./savedItinerary.js"
+import DirectionList from "../directions/DirectionList.js"
 
 // add event listeners and object for posting new itinerary 
 
@@ -29,7 +30,7 @@ const saveItineraryComponent = () =>{
       "eateryName":eateryName
          
     }
-    saveItinerary(newItinerary).then(render(newItinerary))
+    saveItinerary(newItinerary).then(render(newItinerary)).then(DirectionList)
   }
 })
 

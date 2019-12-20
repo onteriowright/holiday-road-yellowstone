@@ -12,7 +12,7 @@ const directionDialog  = () => {
            console.log(theDialog)
             theDialog.showModal()
     }if(e.target.classList.contains("button--close2")){
-      const dialogElement =e.target.parentNode
+      const dialogElement=e.target.parentNode
       dialogElement.close()
     }
   })
