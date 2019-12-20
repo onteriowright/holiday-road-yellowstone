@@ -14,6 +14,7 @@ import saveItineraryComponent from "./SavedItinerary/savedItineraryList.js";
 import directionDialog from "./directions/DirectionDialog.js";
 import { ParkLatLong } from "./directions/DirectionPark.js";
 
+
 directionDialog()
 saveItineraryComponent()
 
@@ -28,7 +29,7 @@ getParks()
   .then(() => parkListComponent())
   .then(() => parkDialogEvents())
   .then(() => ParkLatLong())
-  
+
 
 
 

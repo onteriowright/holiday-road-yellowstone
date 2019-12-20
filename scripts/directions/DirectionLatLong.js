@@ -1,4 +1,18 @@
 import { useParkLatLong } from "./LatLongProvider.js";
 
-// take lat long arraY AND FIND THE LAT AND LONG TO PUT INTO OTHER url 
+const parkObject = useParkLatLong()
 
+export const parkLatDirect = () => {
+    console.log(parkObject)
+  const parkLat=parkObject.hits.map(parkLat => {
+    return parkLat.point
+  })
+
+  console.log(parkObject.hits, "Hits")
+
+    const parkLng=parkObject.hits.map(parkLng => {
+        return parkLng.point
+    })
+
+    console.log(parkLng)
+}

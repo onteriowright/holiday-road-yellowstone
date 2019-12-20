@@ -5,6 +5,24 @@
       "attractionName": "Giant Tattoo Needle",
       "eateryName": "Joe's Stone Crab",
       "id": 1
+    },
+    {
+      "parkName": "Augusta Canal",
+      "attractionName": "Elvis Memorial Chapel",
+      "eateryName": "Deer Park Tavern",
+      "id": 2
+    },
+    {
+      "parkName": "Bryce Canyon",
+      "attractionName": "Elvis Memorial Chapel",
+      "eateryName": "Joe's Stone Crab",
+      "id": 3
+    },
+    {
+      "parkName": "Cape Cod",
+      "attractionName": "Elvis Memorial Chapel",
+      "eateryName": "Joe's Stone Crab",
+      "id": 4
     }
   ]
 }
