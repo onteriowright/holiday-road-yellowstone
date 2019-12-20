@@ -95,6 +95,30 @@
       "attractionName": "Largest Fork in the US",
       "eateryName": "H&H Soul Food",
       "id": 16
+    },
+    {
+      "parkName": "Augusta Canal",
+      "attractionName": "Elvis Memorial Chapel",
+      "eateryName": "Deer Park Tavern",
+      "id": 17
+    },
+    {
+      "parkName": "Augusta Canal",
+      "attractionName": "Giant Tattoo Needle",
+      "eateryName": "El Charro Cafe",
+      "id": 18
+    },
+    {
+      "parkName": "Augusta Canal",
+      "attractionName": "Largest Fork in the US",
+      "eateryName": "H&H Soul Food",
+      "id": 19
+    },
+    {
+      "parkName": "Big Cypress",
+      "attractionName": "Big White Shirt",
+      "eateryName": "Deer Park Tavern",
+      "id": 20
     }
   ]
 }

@@ -15,10 +15,59 @@ html {
 body {
     
   background-color: rgb(17, 17, 17, 0.7);
-  color: white;
+  color: rgb(255, 255, 255);
 }
 
 .name {
     font-family: serif;
-    color: rgb(186, 185, 255);
+    color: rgb(197, 255, 174);
+    text-shadow: 2px 2px 4px green;
 }
+
+.dialogsStyle {
+    border-radius: 15px;     
+    font-size: x-large;
+    color: white;
+}
+
+.dialogsStyle {
+    background-image: url("https://cdn.wallpapersafari.com/2/45/NkZ93q.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:bottom;
+    width: 700px;
+    height: 600px;
+}
+
+.eatStyle {
+    
+    border-radius: 15px; 
+    font-size: large;
+    color: rgb(255, 255, 255);
+    font: bold;
+}
+
+.eatStyle {
+    background-image: url("https://www.inkansascity.com/wp-content/uploads/2019/11/image-32-1024x640.png");
+    background-size:cover;
+    background-position:bottom;
+    width: 700px;
+    height: 600px;
+}
+.attractionsStyle {
+    
+    border-radius: 15px; 
+    font-size: x-large;
+    color: white;
+}
+
+.attractionsStyle {
+    background-image: url("https://inno-forum.org/wp-content/uploads/2016/09/jesus-christ-statue-rio-de-janeiro-brazil-awesome-desktop-background-images-of-cities-free-download-1024x640.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:bottom;
+    width: 700px;
+    height: 600px;
+}
+
+

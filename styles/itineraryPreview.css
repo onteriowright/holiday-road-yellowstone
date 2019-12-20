@@ -72,6 +72,18 @@
   background-color: rgba(22, 22, 22, 0.7);
 }
 
+.learnButton {
+  border: none;
+  border-radius:12px; 
+  width: 100px;
+  height: 40px;
+  left: 16px;
+  top: 882px;
+  color: rgb(255, 255, 255);
+  margin: auto;
+  background-color: rgba(22, 22, 22, 0.7);
+}
+
 nav {
   width: 128px;
   height: 128px;
@@ -83,5 +95,5 @@ nav {
 }
 
 .itColor {
-  color: rgb(173, 142, 0);
+  color: rgb(6, 168, 0);
 }
