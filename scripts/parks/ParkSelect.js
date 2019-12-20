@@ -21,7 +21,7 @@ const parksSelect = () => {
   const render = parksCollection => {
     contentElement.innerHTML = `
     <select class="parksDropdownContent" id="parksDropdown">
-      <option value=0>Select your National Park</option>
+      <option value="0">Select your National Park</option>
       ${parksCollection.map(
         individualPark =>
           `<option value="${individualPark.parkCode}">${individualPark.fullName}</option>`

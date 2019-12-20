@@ -10,51 +10,32 @@ export const EnableButtonEvent = () => {
   
   eventHub.addEventListener("change", event => {
     
-    
-
-
-  if (document.querySelector(".attractions__preview").innerHTML !="" 
-  && document.querySelector(".parks__preview").innerHTML !=""
-  && document.querySelector(".eateries__preview").innerHTML !="") 
-  
-  {
-    
-    
-    document.getElementById("saveItinerary").disabled = false
-      
-      
+    if (document.querySelector(".attractions__preview").innerHTML !="" 
+        && document.querySelector(".parks__preview").innerHTML !=""
+        && document.querySelector(".eateries__preview").innerHTML !="") 
+    {
+      document.getElementById("saveItinerary").disabled = false
     } 
     
-
-    else
-    
-    {
-
-      document.getElementById("saveItinerary").disabled = true
-    }
-
-    
-    
-    
-    
-    
-    
-  })
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+  }) 
 }
 
+// export const DisableButton = () => {
+//   if (document.querySelector(".attractionsDropdown").value ==="0" 
+//   || document.querySelector(".parksDropdown").value ==="0"
+//   || document.querySelector(".eateriesDropdown").value ==="0"
+  
+  
+//   ) {
+//     document.getElementById("saveItinerary").disabled = true
+
+//   }
+
+
+
+
+
+// }
 
 
 

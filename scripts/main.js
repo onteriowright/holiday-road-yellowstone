@@ -22,13 +22,13 @@ getEateries()
   .then(DialogComponent);
 
 getParks()
-  .then(() => parksSelect()).then(EnableButtonEvent)
-  .then(() => parkListComponent())
+  .then(() => parksSelect())
+  .then(() => parkListComponent()).then(EnableButtonEvent)
   .then(() => parkDialogEvents());
 
 getAttractions()
-  .then(AttractionsSelect).then(EnableButtonEvent)
-  .then(AttractionsListComponent)
+  .then(AttractionsSelect)
+  .then(AttractionsListComponent).then(EnableButtonEvent)
   .then(LearnMoreButton);
 
 WeatherListComponent();
