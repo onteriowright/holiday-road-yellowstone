@@ -1,234 +1,118 @@
 {
   "itineraries": [
     {
-      "attractionName": "Snake World",
-      "eateryName": "H&H Soul Food",
+      "parkName": "Cuyahoga Valley",
+      "attractionName": "Giant Tattoo Needle",
+      "eateryName": "Deer Park Tavern",
       "id": 1
     },
     {
-      "attractionName": "Snake World",
-      "eateryName": "H&H Soul Food",
+      "parkName": "Augusta Canal",
+      "attractionName": "Elvis Memorial Chapel",
+      "eateryName": "Occidental Grill & Seafood",
       "id": 2
     },
     {
-      "attractionName": "Largest Fork in the US",
-      "eateryName": "Hancock Inn",
+      "parkName": "Belmont-Paul Women's Equality",
+      "attractionName": "Big White Shirt",
+      "eateryName": "McClard's BBQ",
       "id": 3
     },
     {
-      "attractionName": "Largest Fork in the US",
-      "eateryName": "Hancock Inn",
+      "parkName": "Big Cypress",
+      "attractionName": "Giant Tattoo Needle",
+      "eateryName": "Occidental Grill & Seafood",
       "id": 4
-    },
-    {
-      "parkName": "Belmont-Paul Women's Equality",
-      "attractionName": "Snake World",
-      "eateryName": "Deer Park Tavern",
-      "id": 5
-    },
-    {
-      "parkName": "Belmont-Paul Women's Equality",
-      "attractionName": "Snake World",
-      "eateryName": "Deer Park Tavern",
-      "id": 6
-    },
-    {
-      "parkName": "Fort Davis",
-      "attractionName": "Giant Abraham Lincoln",
-      "eateryName": "El Pinto",
-      "id": 7
-    },
-    {
-      "parkName": "Fort Davis",
-      "attractionName": "Giant Abraham Lincoln",
-      "eateryName": "El Pinto",
-      "id": 8
-    },
-    {
-      "parkName": "Charles Pinckney",
-      "attractionName": "World’s Largest Egg",
-      "eateryName": "Hancock Inn",
-      "id": 9
-    },
-    {
-      "parkName": "Effigy Mounds",
-      "attractionName": "First Kiss Spot of the Obamas",
-      "eateryName": "DeLuca's",
-      "id": 10
-    },
-    {
-      "parkName": "Bryce Canyon",
-      "attractionName": "Giant Tattoo Needle",
-      "eateryName": "Deer Park Tavern",
-      "id": 11
-    },
-    {
-      "parkName": "Bryce Canyon",
-      "attractionName": "Giant Tattoo Needle",
-      "eateryName": "Deer Park Tavern",
-      "id": 12
-    },
-    {
-      "parkName": "Bryce Canyon",
-      "attractionName": "World’s Most Scenic Urinal",
-      "eateryName": "The Peppermill Restaurant and Fireside Lounge",
-      "id": 13
-    },
-    {
-      "parkName": "Bryce Canyon",
-      "attractionName": "World’s Most Scenic Urinal",
-      "eateryName": "The Peppermill Restaurant and Fireside Lounge",
-      "id": 14
-    },
-    {
-      "parkName": "Bryce Canyon",
-      "attractionName": "World’s Most Scenic Urinal",
-      "eateryName": "The Peppermill Restaurant and Fireside Lounge",
-      "id": 15
-    },
-    {
-      "parkName": "Bryce Canyon",
-      "attractionName": "World’s Most Scenic Urinal",
-      "eateryName": "The Peppermill Restaurant and Fireside Lounge",
-      "id": 16
-    },
-    {
-      "parkName": "Bryce Canyon",
-      "attractionName": "World’s Most Scenic Urinal",
-      "eateryName": "The Peppermill Restaurant and Fireside Lounge",
-      "id": 17
-    },
-    {
-      "parkName": "Bryce Canyon",
-      "attractionName": "World’s Most Scenic Urinal",
-      "eateryName": "The Peppermill Restaurant and Fireside Lounge",
-      "id": 18
-    },
-    {
-      "parkName": "Belmont-Paul Women's Equality",
-      "attractionName": "Fountain of Youth",
-      "eateryName": "DeLuca's",
-      "id": 19
-    },
-    {
-      "parkName": "Charles Pinckney",
-      "attractionName": "World’s Largest Egg",
-      "eateryName": "Scott's Bar-B-Que",
-      "id": 20
-    },
-    {
-      "parkName": "Cape Cod",
-      "attractionName": "World’s Largest ‘Gone With the Wind’ Collection",
-      "eateryName": "DeLuca's",
-      "id": 21
-    },
-    {
-      "parkName": "Dry Tortugas",
-      "attractionName": "Snake World",
-      "eateryName": "The Drover Restaurant & Lounge",
-      "id": 22
-    },
-    {
-      "parkName": "Fort Bowie",
-      "attractionName": "Largest Fork in the US",
-      "eateryName": "El Pinto",
-      "id": 23
-    },
-    {
-      "parkName": "Cape Cod",
-      "attractionName": "Mini Statue of Liberty",
-      "eateryName": "The Peppermill Restaurant and Fireside Lounge",
-      "id": 24
-    },
-    {
-      "parkName": "Bryce Canyon",
-      "attractionName": "Largest Fork in the US",
-      "eateryName": "The Peppermill Restaurant and Fireside Lounge",
-      "id": 25
     },
     {
       "parkName": "Cape Cod",
       "attractionName": "Elvis Memorial Chapel",
-      "eateryName": "Commander's Palace",
-      "id": 26
+      "eateryName": "Occidental Grill & Seafood",
+      "id": 5
     },
     {
-      "parkName": "African American Civil War Memorial",
-      "attractionName": "Fountain of Youth",
-      "eateryName": "Tops Diner",
-      "id": 27
+      "parkName": "Belmont-Paul Women's Equality",
+      "attractionName": "Cabazon Dinosaurs",
+      "eateryName": "Occidental Grill & Seafood",
+      "id": 6
     },
     {
       "parkName": "Big Cypress",
-      "attractionName": "Big White Shirt",
-      "eateryName": "Deer Park Tavern",
-      "id": 28
+      "attractionName": "Elvis Memorial Chapel",
+      "eateryName": "McClard's BBQ",
+      "id": 7
     },
     {
-      "parkName": "African American Civil War Memorial",
+      "parkName": "Big Cypress",
+      "attractionName": "Cabazon Dinosaurs",
+      "eateryName": "Deer Park Tavern",
+      "id": 8
+    },
+    {
+      "parkName": "Belmont-Paul Women's Equality",
+      "attractionName": "Snake World",
+      "eateryName": "Occidental Grill & Seafood",
+      "id": 9
+    },
+    {
+      "parkName": "Belmont-Paul Women's Equality",
+      "attractionName": "Elvis Memorial Chapel",
+      "eateryName": "Deer Park Tavern",
+      "id": 10
+    },
+    {
+      "parkName": "Belmont-Paul Women's Equality",
+      "attractionName": "Giant Tattoo Needle",
+      "eateryName": "McClard's BBQ",
+      "id": 11
+    },
+    {
+      "parkName": "Belmont-Paul Women's Equality",
       "attractionName": "Giant Tattoo Needle",
       "eateryName": "Occidental Grill & Seafood",
-      "id": 29
+      "id": 12
     },
     {
-      "parkName": "African American Civil War Memorial",
-      "attractionName": "Big White Shirt",
-      "eateryName": "El Charro Cafe",
-      "id": 30
-    },
-    {
-      "parkName": "African American Civil War Memorial",
-      "attractionName": "Largest Fork in the US",
-      "eateryName": "Deer Park Tavern",
-      "id": 31
-    },
-    {
-      "parkName": "African American Civil War Memorial",
-      "attractionName": "Big White Shirt",
-      "eateryName": "El Charro Cafe",
-      "id": 32
-    },
-    {
-      "parkName": "African American Civil War Memorial",
-      "attractionName": "Big White Shirt",
-      "eateryName": "El Charro Cafe",
-      "id": 33
-    },
-    {
-      "parkName": "African American Civil War Memorial",
-      "attractionName": "Big White Shirt",
-      "eateryName": "El Charro Cafe",
-      "id": 34
-    },
-    {
-      "parkName": "African American Civil War Memorial",
-      "attractionName": "Big White Shirt",
-      "eateryName": "El Charro Cafe",
-      "id": 35
-    },
-    {
-      "parkName": "Cuyahoga Valley",
-      "attractionName": "Giant Tattoo Needle",
+      "parkName": "Belmont-Paul Women's Equality",
+      "attractionName": "Cabazon Dinosaurs",
       "eateryName": "Joe's Stone Crab",
-      "id": 36
+      "id": 13
     },
     {
-      "parkName": "Dry Tortugas",
-      "attractionName": "Owney the Stuffed Dog Postal Mascot",
+      "parkName": "Big Cypress",
+      "attractionName": "Snake World",
+      "eateryName": "Deer Park Tavern",
+      "id": 14
+    },
+    {
+      "parkName": "Belmont-Paul Women's Equality",
+      "attractionName": "Cabazon Dinosaurs",
+      "eateryName": "Occidental Grill & Seafood",
+      "id": 15
+    },
+    {
+      "parkName": "Bryce Canyon",
+      "attractionName": "Largest Fork in the US",
       "eateryName": "H&H Soul Food",
-      "id": 37
+      "id": 16
     },
     {
-      "parkName": "African American Civil War Memorial",
-      "attractionName": "Big White Shirt",
-      "eateryName": "El Charro Cafe",
-      "id": 38
+      "parkName": "Augusta Canal",
+      "attractionName": "Elvis Memorial Chapel",
+      "eateryName": "Deer Park Tavern",
+      "id": 17
     },
     {
-      "parkName": "African American Civil War Memorial",
-      "attractionName": "Big White Shirt",
+      "parkName": "Augusta Canal",
+      "attractionName": "Giant Tattoo Needle",
       "eateryName": "El Charro Cafe",
-      "id": 39
+      "id": 18
+    },
+    {
+      "parkName": "Augusta Canal",
+      "attractionName": "Largest Fork in the US",
+      "eateryName": "H&H Soul Food",
+      "id": 19
     },
     {
       "parkName": "Big Cypress",
@@ -301,6 +185,48 @@
       "attractionName": "Giant Tattoo Needle",
       "eateryName": "McClard's BBQ",
       "id": 51
+    },
+    {
+      "parkName": "Belmont-Paul Women's Equality",
+      "attractionName": "Snake World",
+      "eateryName": "McClard's BBQ",
+      "id": 52
+    },
+    {
+      "parkName": "Belmont-Paul Women's Equality",
+      "attractionName": "Snake World",
+      "eateryName": "McClard's BBQ",
+      "id": 53
+    },
+    {
+      "parkName": "African American Civil War Memorial",
+      "attractionName": "Giant Tattoo Needle",
+      "eateryName": "Joe's Stone Crab",
+      "id": 54
+    },
+    {
+      "parkName": "Augusta Canal",
+      "attractionName": "Elvis Memorial Chapel",
+      "eateryName": "Occidental Grill & Seafood",
+      "id": 55
+    },
+    {
+      "parkName": "Big Cypress",
+      "attractionName": "Big White Shirt",
+      "eateryName": "El Charro Cafe",
+      "id": 56
+    },
+    {
+      "parkName": "Belmont-Paul Women's Equality",
+      "attractionName": "Snake World",
+      "eateryName": "McClard's BBQ",
+      "id": 57
+    },
+    {
+      "parkName": "Big Cypress",
+      "attractionName": "Cabazon Dinosaurs",
+      "eateryName": "Deer Park Tavern",
+      "id": 58
     }
   ]
 }

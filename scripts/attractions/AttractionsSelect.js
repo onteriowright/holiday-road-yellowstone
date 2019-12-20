@@ -46,7 +46,6 @@ const AttractionsSelect = () => {
     
     ${collectedAttractions.sort().map(
       places => `<option value="${places.name}">${places.name}</option>`
-
     )}
     </select>`
   }

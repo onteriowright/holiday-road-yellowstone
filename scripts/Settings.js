@@ -7,3 +7,5 @@ export default {
     "http://holidayroad.nss.team/eateries?ameneties.playground=true&ameneties.diaperFacility=true",
   localEateriesAPI: "http://localhost:3000/itineraries"
 };
+
+

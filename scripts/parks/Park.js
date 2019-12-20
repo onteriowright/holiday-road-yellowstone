@@ -3,8 +3,8 @@ const parkComponent = park => {
   <section class="parkCard">
     <h3 class="parkCard__name">${park.name}</h3>
     <div class="parksDialog">
-    <button id="parks--${park.parkCode}">Learn More</button>
-    <dialog class='dialog--park_info'>
+    <button id="parks--${park.parkCode}" class="learnButton">Learn More</button>
+    <dialog class='dialog--park_info dialogsStyle'>
       <h3>${park.name}</h3>
       <div class="parkCard__state">${park.states}</div>
       <br>

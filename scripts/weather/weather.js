@@ -6,11 +6,11 @@ export const weatherComponent = location => {
 
   return `
     <section class="weather-cards">
-      <div class="weather-info">Weather: ${location.weather[0].main}</div>
-      <div class="weather-info">Temperature: ${Math.round(
+      <div class="weather-info"><span class="wColor">Weather:</span> ${location.weather[0].main}</div>
+      <div class="weather-info"><span class="wColor">Temperature:</span> ${Math.round(
         temperatureConverter(location.main.temp)
       )} F</div>
-      <div class="weather-info"> Description: ${
+      <div class="weather-info"> <span class="wColor">Description:</span> ${
         location.weather[0].description
       }</div>
     </section>

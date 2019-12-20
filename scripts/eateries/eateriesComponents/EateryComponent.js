@@ -2,8 +2,8 @@ export const EateryComponent = eatery => {
   return `
   <section class="eatery-card">
       <h3 class="eateryCard__name">${eatery.businessName}</h3>
-      <button id="openDialog--${eatery.id}">Learn More</button>
-        <dialog class="eatery-dialog">
+      <button id="openDialog--${eatery.id}" class="learnButton">Learn More</button>
+        <dialog class="eatery-dialog eatStyle">
           <div class="eatery-info">City: ${eatery.city}</div>
           <div class="eatery-info">State: ${eatery.state}</div>
           <div class="eatery-info">Wheel Chair Accessible: ${eatery.ameneties.wheelchairAccessible}

@@ -2,3 +2,90 @@
 @import "itineraryPreview.css";
 @import "weather.css";
 @import "eatery.css";
+
+html {
+    background-image:  url("https://farm9.staticflickr.com/8644/15964625458_d5c6d431ac_k.jpg");
+    width: 100vw;
+    height: 100vh;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:bottom;
+}
+
+body {
+    
+  background-color: rgb(17, 17, 17, 0.7);
+  color: rgb(255, 255, 255);
+}
+
+.name {
+    font-family: serif;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 4px green;
+}
+
+.dialogsStyle {
+    border-radius: 15px;     
+    font-size: x-large;
+    color: rgb(255, 255, 255);
+}
+
+.dialogsStyle {
+    background-image: url("https://cdn.wallpapersafari.com/2/45/NkZ93q.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:bottom;
+    width: 700px;
+    height: 600px;
+}
+
+.eatStyle {
+    
+    border-radius: 15px; 
+    font-size: large;
+    color: rgb(255, 255, 255);
+    font: bold;
+}
+
+.eatStyle {
+    background-image: url("https://www.inkansascity.com/wp-content/uploads/2019/11/image-32-1024x640.png");
+    background-size:cover;
+    background-position:bottom;
+    width: 700px;
+    height: 600px;
+}
+.attractionsStyle {
+    
+    border-radius: 15px; 
+    font-size: x-large;
+    color: rgb(255, 255, 255);
+}
+
+.attractionsStyle {
+    background-image: url("https://inno-forum.org/wp-content/uploads/2016/09/jesus-christ-statue-rio-de-janeiro-brazil-awesome-desktop-background-images-of-cities-free-download-1024x640.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:bottom;
+    width: 700px;
+    height: 600px;
+}
+
+.parkC {
+    color: rgb(0, 153, 0);
+}
+
+.attractionsC {
+    color: rgb(0, 153, 0);
+}
+
+.eatC {
+    color: rgb(0, 153, 0);
+}
+
+.title {
+    margin: auto;
+    border: double;
+}
+
+
+
