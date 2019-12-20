@@ -1,7 +1,7 @@
 import { getEateries } from "./eateries/eateriesComponents/EateryDataProvider.js";
 import { EaterySelectListcomponent } from "./eateries/eateriesComponents/EaterySelectComponent.js";
 import { EateriesListComponent } from "./eateries/eateriesComponents/EateryListComponent.js";
-import { DailogComponent } from "./eateries/dialog/Dialog.js";
+import { DialogComponent } from "./eateries/dialog/Dialog.js";
 import { getParks } from "./parks/ParkProvider.js";
 import parksSelect from "./parks/ParkSelect.js";
 import parkListComponent from "./parks/ParkList.js";
@@ -10,15 +10,15 @@ import AttractionsSelect from "./attractions/AttractionsSelect.js";
 import { getAttractions } from "./attractions/AttractionProvider.js";
 import { AttractionsListComponent } from "./attractions/AttractionsList.js";
 import { LearnMoreButton } from "./attractions/LearnMore.js";
-import saveItineraryComponent from "./SavedItinerary/savedItineraryList.js";
+import saveItineraryComponent from "./savedItinerary/savedItineraryList.js";
+import { WeatherListComponent } from "./weather/weatherListComponent.js";
 
-saveItineraryComponent()
+saveItineraryComponent();
 
 getEateries()
   .then(EaterySelectListcomponent)
   .then(EateriesListComponent)
-  .then(DailogComponent)
-
+  .then(DialogComponent);
 
 getParks()
   .then(() => parksSelect())
@@ -27,7 +27,7 @@ getParks()
 
 getAttractions()
   .then(AttractionsSelect)
-  .then(AttractionsListComponent);
-getAttractions().then(LearnMoreButton);
+  .then(AttractionsListComponent)
+  .then(LearnMoreButton);
 
-
+WeatherListComponent();

@@ -151,6 +151,90 @@
       "attractionName": "Elvis Memorial Chapel",
       "eateryName": "Commander's Palace",
       "id": 26
+    },
+    {
+      "parkName": "African American Civil War Memorial",
+      "attractionName": "Fountain of Youth",
+      "eateryName": "Tops Diner",
+      "id": 27
+    },
+    {
+      "parkName": "Big Cypress",
+      "attractionName": "Big White Shirt",
+      "eateryName": "Deer Park Tavern",
+      "id": 28
+    },
+    {
+      "parkName": "African American Civil War Memorial",
+      "attractionName": "Giant Tattoo Needle",
+      "eateryName": "Occidental Grill & Seafood",
+      "id": 29
+    },
+    {
+      "parkName": "African American Civil War Memorial",
+      "attractionName": "Big White Shirt",
+      "eateryName": "El Charro Cafe",
+      "id": 30
+    },
+    {
+      "parkName": "African American Civil War Memorial",
+      "attractionName": "Largest Fork in the US",
+      "eateryName": "Deer Park Tavern",
+      "id": 31
+    },
+    {
+      "parkName": "African American Civil War Memorial",
+      "attractionName": "Big White Shirt",
+      "eateryName": "El Charro Cafe",
+      "id": 32
+    },
+    {
+      "parkName": "African American Civil War Memorial",
+      "attractionName": "Big White Shirt",
+      "eateryName": "El Charro Cafe",
+      "id": 33
+    },
+    {
+      "parkName": "African American Civil War Memorial",
+      "attractionName": "Big White Shirt",
+      "eateryName": "El Charro Cafe",
+      "id": 34
+    },
+    {
+      "parkName": "African American Civil War Memorial",
+      "attractionName": "Big White Shirt",
+      "eateryName": "El Charro Cafe",
+      "id": 35
+    },
+    {
+      "parkName": "Cuyahoga Valley",
+      "attractionName": "Giant Tattoo Needle",
+      "eateryName": "Joe's Stone Crab",
+      "id": 36
+    },
+    {
+      "parkName": "Dry Tortugas",
+      "attractionName": "Owney the Stuffed Dog Postal Mascot",
+      "eateryName": "H&H Soul Food",
+      "id": 37
+    },
+    {
+      "parkName": "African American Civil War Memorial",
+      "attractionName": "Big White Shirt",
+      "eateryName": "El Charro Cafe",
+      "id": 38
+    },
+    {
+      "parkName": "African American Civil War Memorial",
+      "attractionName": "Big White Shirt",
+      "eateryName": "El Charro Cafe",
+      "id": 39
+    },
+    {
+      "parkName": "Big Cypress",
+      "attractionName": "Big White Shirt",
+      "eateryName": "El Charro Cafe",
+      "id": 40
     }
   ]
 }
