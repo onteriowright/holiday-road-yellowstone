@@ -19,6 +19,13 @@ const parkListComponent = () => {
     render(filteredParks);
   });
 
+  eventHub.addEventListener("change", e => {
+    if(e.target.value === "0") {
+      contentElement.innerHTML = ""
+    }
+
+  })
+
   const render = parkCollection => {
     contentElement.innerHTML = `
     ${parkComponent(parkCollection)}
