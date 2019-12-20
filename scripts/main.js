@@ -12,6 +12,7 @@ import { AttractionsListComponent } from "./attractions/AttractionsList.js";
 import { LearnMoreButton } from "./attractions/LearnMore.js";
 import saveItineraryComponent from "./savedItinerary/savedItineraryList.js";
 import { WeatherListComponent } from "./weather/weatherListComponent.js";
+import {EnableButtonEvent} from "./SavedItinerary/enableButton.js"
 
 saveItineraryComponent();
 
@@ -26,7 +27,7 @@ getParks()
   .then(() => parkDialogEvents());
 
 getAttractions()
-  .then(AttractionsSelect)
+  .then(AttractionsSelect).then(EnableButtonEvent)
   .then(AttractionsListComponent)
   .then(LearnMoreButton);
 
