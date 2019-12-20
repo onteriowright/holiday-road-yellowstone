@@ -1,124 +1,100 @@
 {
   "itineraries": [
     {
-      "parkName": "Effigy Mounds",
+      "parkName": "Cuyahoga Valley",
       "attractionName": "Giant Tattoo Needle",
-      "eateryName": "Joe's Stone Crab",
+      "eateryName": "Deer Park Tavern",
       "id": 1
     },
     {
       "parkName": "Augusta Canal",
       "attractionName": "Elvis Memorial Chapel",
-      "eateryName": "Deer Park Tavern",
+      "eateryName": "Occidental Grill & Seafood",
       "id": 2
     },
     {
-      "parkName": "Bryce Canyon",
-      "attractionName": "Elvis Memorial Chapel",
-      "eateryName": "Joe's Stone Crab",
+      "parkName": "Belmont-Paul Women's Equality",
+      "attractionName": "Big White Shirt",
+      "eateryName": "McClard's BBQ",
       "id": 3
+    },
+    {
+      "parkName": "Big Cypress",
+      "attractionName": "Giant Tattoo Needle",
+      "eateryName": "Occidental Grill & Seafood",
+      "id": 4
     },
     {
       "parkName": "Cape Cod",
       "attractionName": "Elvis Memorial Chapel",
-      "eateryName": "Commander's Palace",
-      "id": 26
-    },
-    {
-      "parkName": "African American Civil War Memorial",
-      "attractionName": "Fountain of Youth",
-      "eateryName": "Tops Diner",
-      "id": 27
-    },
-    {
-      "parkName": "Big Cypress",
-      "attractionName": "Big White Shirt",
-      "eateryName": "Deer Park Tavern",
-      "id": 28
-    },
-    {
-      "parkName": "African American Civil War Memorial",
-      "attractionName": "Giant Tattoo Needle",
       "eateryName": "Occidental Grill & Seafood",
-      "id": 29
+      "id": 5
     },
     {
-      "parkName": "African American Civil War Memorial",
-      "attractionName": "Big White Shirt",
-      "eateryName": "El Charro Cafe",
-      "id": 30
-    },
-    {
-      "parkName": "African American Civil War Memorial",
-      "attractionName": "Largest Fork in the US",
-      "eateryName": "Deer Park Tavern",
-      "id": 31
-    },
-    {
-      "parkName": "African American Civil War Memorial",
-      "attractionName": "Big White Shirt",
-      "eateryName": "El Charro Cafe",
-      "id": 32
-    },
-    {
-      "parkName": "African American Civil War Memorial",
-      "attractionName": "Big White Shirt",
-      "eateryName": "El Charro Cafe",
-      "id": 33
-    },
-    {
-      "parkName": "African American Civil War Memorial",
-      "attractionName": "Big White Shirt",
-      "eateryName": "El Charro Cafe",
-      "id": 34
-    },
-    {
-      "parkName": "African American Civil War Memorial",
-      "attractionName": "Big White Shirt",
-      "eateryName": "El Charro Cafe",
-      "id": 35
-    },
-    {
-      "parkName": "Cuyahoga Valley",
-      "attractionName": "Giant Tattoo Needle",
-      "eateryName": "Joe's Stone Crab",
-      "id": 36
-    },
-    {
-      "parkName": "Dry Tortugas",
-      "attractionName": "Owney the Stuffed Dog Postal Mascot",
-      "eateryName": "H&H Soul Food",
-      "id": 37
-    },
-    {
-      "parkName": "African American Civil War Memorial",
-      "attractionName": "Big White Shirt",
-      "eateryName": "El Charro Cafe",
-      "id": 38
-    },
-    {
-      "parkName": "African American Civil War Memorial",
-      "attractionName": "Big White Shirt",
-      "eateryName": "El Charro Cafe",
-      "id": 39
-    },
-    {
-      "parkName": "Big Cypress",
-      "attractionName": "Big White Shirt",
-      "eateryName": "El Charro Cafe",
-      "id": 40
-    },
-    {
-      "parkName": "El Malpais",
+      "parkName": "Belmont-Paul Women's Equality",
       "attractionName": "Cabazon Dinosaurs",
-      "eateryName": "Joe's Stone Crab",
-      "id": 41
+      "eateryName": "Occidental Grill & Seafood",
+      "id": 6
     },
     {
       "parkName": "Big Cypress",
       "attractionName": "Elvis Memorial Chapel",
+      "eateryName": "McClard's BBQ",
+      "id": 7
+    },
+    {
+      "parkName": "Big Cypress",
+      "attractionName": "Cabazon Dinosaurs",
+      "eateryName": "Deer Park Tavern",
+      "id": 8
+    },
+    {
+      "parkName": "Belmont-Paul Women's Equality",
+      "attractionName": "Snake World",
       "eateryName": "Occidental Grill & Seafood",
-      "id": 42
+      "id": 9
+    },
+    {
+      "parkName": "Belmont-Paul Women's Equality",
+      "attractionName": "Elvis Memorial Chapel",
+      "eateryName": "Deer Park Tavern",
+      "id": 10
+    },
+    {
+      "parkName": "Belmont-Paul Women's Equality",
+      "attractionName": "Giant Tattoo Needle",
+      "eateryName": "McClard's BBQ",
+      "id": 11
+    },
+    {
+      "parkName": "Belmont-Paul Women's Equality",
+      "attractionName": "Giant Tattoo Needle",
+      "eateryName": "Occidental Grill & Seafood",
+      "id": 12
+    },
+    {
+      "parkName": "Belmont-Paul Women's Equality",
+      "attractionName": "Cabazon Dinosaurs",
+      "eateryName": "Joe's Stone Crab",
+      "id": 13
+    },
+    {
+      "parkName": "Big Cypress",
+      "attractionName": "Snake World",
+      "eateryName": "Deer Park Tavern",
+      "id": 14
+    },
+    {
+      "parkName": "Belmont-Paul Women's Equality",
+      "attractionName": "Cabazon Dinosaurs",
+      "eateryName": "Occidental Grill & Seafood",
+      "id": 15
+    },
+    {
+      "parkName": "Bryce Canyon",
+      "attractionName": "Largest Fork in the US",
+      "eateryName": "H&H Soul Food",
+      "id": 16
     }
   ]
 }

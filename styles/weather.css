@@ -1,17 +1,28 @@
 .weatherSection {
-  border: 1px solid black;
-  min-width: 700px;
+  border: 1px double white;
+  max-width: 1300px;
   min-height: 200px;
+  margin: auto;
+  margin-top: 20px;
+  border-radius: 15px 5px;
+
 }
 .weather-display {
   display: flex;
   justify-content: space-evenly;
 }
 .weather-cards {
-  border: 1px dotted;
+  border: 1px double;
   margin: 5px;
   padding: 25px;
 }
 .weather-info {
   padding: 15px;
+  color: rgb(255, 255, 255);
+}
+
+.wColor {
+  color: rgb(253, 255, 162);
+  font-family: serif;
+  font: bold;
 }

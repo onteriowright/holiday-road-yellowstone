@@ -1,13 +1,43 @@
 .dropdownContainer {
   display: flex;
-  flex-wrap: wrap;
+justify-content: space-evenly;  
+margin: auto;
 }
+
 .parksDropdown {
+  position: relative;
+  left: 100px;
   flex-basis: 30%;
+  margin: auto;
+  width: 30px;
 }
+
 .attractionsDropdown {
-  flex-basis: 30%;
+  position: relative;
+  left: 50px;
+  margin: auto;
 }
+
 .eateriesDropdown {
   flex-basis: 30%;
+  width: 120%;
+  margin: auto;
+}
+
+.dropDown {
+  background-color: rgb(85, 85, 85);
+  color: rgb(219, 219, 219);
+  font-family: serif;
+}
+
+.parksDropdownContent{
+  background-color: rgb(85, 85, 85);
+  color: rgb(219, 219, 219);
+  font-family: serif;
+}
+
+.dropdown {
+  background-color: rgb(85, 85, 85);
+  color: rgb(219, 219, 219);
+  font-family: serif;
 }
