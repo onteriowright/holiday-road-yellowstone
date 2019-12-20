@@ -1,42 +1,56 @@
-.itinerary__preview{
-  display: flex; 
+.itinerary__preview {
+  display: flex;
   flex-wrap: wrap;
-  margin: 20px;  
+  margin: 20px;
   justify-content: space-between;
 }
-.previewCards{
-  display:flex; 
-  flex-wrap: wrap; 
-  flex-basis: 60%; 
-  border:1px solid black; 
-  max-width: 500px;
+.previewCards {
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: 60%;
+  border: 1px solid black;
+  max-width: 900px;
   min-width: 500px;
   min-height: 400px;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 
-.parks__preview{
-  border:1px solid black; 
-  flex-basis: 20%; 
-  margin: 10px; 
+.parks__preview {
+  border: 1px dotted black;
+  flex-basis: 20%;
+  margin: 10px;
+  text-align: center;
 }
-.attractions__preview{
-  border:1px solid black;
-  flex-basis: 20%; 
-  margin: 10px; 
+.attractions__preview {
+  border: 1px dotted black;
+  flex-basis: 20%;
+  margin: 10px;
+  text-align: center;
 }
-.eateries__preview{
-  border:1px solid black;
-  flex-basis: 20%; 
-  margin: 10px; 
+.eateries__preview {
+  border: 1px dotted black;
+  flex-basis: 20%;
+  margin: 10px;
+  text-align: center;
 }
 
-.itinerary{
-  border:1px solid black;
- flex-basis: 40%; 
- min-width:300px; 
- max-width: 300px;   
- 
+.itinerary {
+  border: 1px solid black;
+  flex-basis: 40%;
+  min-width: 300px;
+  max-width: 300px;
+}
+.dialog--park_info {
+  text-align: left;
+}
+.attractionsDetail {
+  text-align: left;
+}
+.eatery-dialog {
+  text-align: left;
+}
+.itinerary-info {
+  padding: 15px;
 }
 .saveItinerary{
   border-radius:12px; 

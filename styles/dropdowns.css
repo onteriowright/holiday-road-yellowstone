@@ -1,16 +1,13 @@
-.dropdownContainer{
-  display:flex; 
-  flex-wrap: wrap; 
+.dropdownContainer {
+  display: flex;
+  flex-wrap: wrap;
 }
-.parksDropdown{
-  flex-basis: 20%; 
-  margin: 10px; 
+.parksDropdown {
+  flex-basis: 30%;
 }
-.attractionsDropdown{
-  flex-basis: 20%; 
-  margin: 10px; 
+.attractionsDropdown {
+  flex-basis: 30%;
 }
-.eateriesDropdown{
-  flex-basis: 20%;
-  margin: 10px; 
+.eateriesDropdown {
+  flex-basis: 30%;
 }

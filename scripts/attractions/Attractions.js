@@ -1,9 +1,9 @@
-const AttractionsComponent = (attractions) => {
-   return `
+const AttractionsComponent = attractions => {
+  return `
    
     <section class="attractions">
             <div class="attractions__name">
-                <h2 class="attractionCard__name">${attractions.name}</h1>
+                <h3 class="attractionCard__name">${attractions.name}</h3>
             </div>
         <div>
         <button id ="detailsButton">Learn More</button>
@@ -22,6 +22,6 @@ const AttractionsComponent = (attractions) => {
       </dialog>
       </div>
      </section>
-    `
-}
-export default AttractionsComponent
+    `;
+};
+export default AttractionsComponent;

@@ -10,19 +10,15 @@ import AttractionsSelect from "./attractions/AttractionsSelect.js";
 import { getAttractions } from "./attractions/AttractionProvider.js";
 import { AttractionsListComponent } from "./attractions/AttractionsList.js";
 import { LearnMoreButton } from "./attractions/LearnMore.js";
-import saveItineraryComponent from "./SavedItinerary/savedItineraryList.js";
-import directionDialog from "./directions/DirectionDialog.js";
-import { ParkLatLong } from "./directions/DirectionPark.js";
+import saveItineraryComponent from "./savedItinerary/savedItineraryList.js";
+import { WeatherListComponent } from "./weather/weatherListComponent.js";
 
-
-directionDialog()
-saveItineraryComponent()
+saveItineraryComponent();
 
 getEateries()
   .then(EaterySelectListcomponent)
   .then(EateriesListComponent)
-  .then(DialogComponent)
-
+  .then(DialogComponent);
 
 getParks()
   .then(() => parksSelect())
@@ -35,11 +31,7 @@ getParks()
 
 getAttractions()
   .then(AttractionsSelect)
-  .then(AttractionsListComponent);
-  
-getAttractions().then(LearnMoreButton);
+  .then(AttractionsListComponent)
+  .then(LearnMoreButton);
 
-
-
-
-
+WeatherListComponent();
