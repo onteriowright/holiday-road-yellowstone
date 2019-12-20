@@ -117,10 +117,6 @@
     {
       "parkName": "Big Cypress",
       "attractionName": "Big White Shirt",
-<<<<<<< HEAD
-      "eateryName": "Deer Park Tavern",
-      "id": 20
-=======
       "eateryName": "El Charro Cafe",
       "id": 40
     },
@@ -189,7 +185,6 @@
       "attractionName": "Giant Tattoo Needle",
       "eateryName": "McClard's BBQ",
       "id": 51
->>>>>>> master
     }
   ]
 }
