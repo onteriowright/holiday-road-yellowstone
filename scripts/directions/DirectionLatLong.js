@@ -1,18 +1,17 @@
-import { useParkLatLong } from "./LatLongProvider.js";
-
-const parkObject = useParkLatLong()
+import { useParkLatLong } from './LatLongProvider.js'
 
 export const parkLatDirect = () => {
-    console.log(parkObject)
-  const parkLat=parkObject.hits.map(parkLat => {
+  const parkObject = useParkLatLong()
+  console.log(parkObject)
+  const parkLat = parkObject.hits.map(parkLat => {
     return parkLat.point
   })
 
-  console.log(parkObject.hits, "Hits")
+  console.log(parkObject.hits, 'Hits')
 
-    const parkLng=parkObject.hits.map(parkLng => {
-        return parkLng.point
-    })
+  const parkLng = parkObject.hits.map(parkLng => {
+    return parkLng.point
+  })
 
-    console.log(parkLng)
+  console.log(parkLng)
 }

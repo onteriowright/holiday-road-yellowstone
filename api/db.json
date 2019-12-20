@@ -113,6 +113,12 @@
       "attractionName": "Cabazon Dinosaurs",
       "eateryName": "Joe's Stone Crab",
       "id": 41
+    },
+    {
+      "parkName": "Big Cypress",
+      "attractionName": "Elvis Memorial Chapel",
+      "eateryName": "Occidental Grill & Seafood",
+      "id": 42
     }
   ]
 }

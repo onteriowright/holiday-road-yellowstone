@@ -12,6 +12,7 @@ import { AttractionsListComponent } from "./attractions/AttractionsList.js";
 import { LearnMoreButton } from "./attractions/LearnMore.js";
 import saveItineraryComponent from "./savedItinerary/savedItineraryList.js";
 import { WeatherListComponent } from "./weather/weatherListComponent.js";
+import {parkLatDirect} from './directions/DirectionLatLong.js'
 
 saveItineraryComponent();
 
@@ -24,7 +25,6 @@ getParks()
   .then(() => parksSelect())
   .then(() => parkListComponent())
   .then(() => parkDialogEvents())
-  .then(() => ParkLatLong())
 
 
 
