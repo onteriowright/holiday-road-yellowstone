@@ -20,14 +20,14 @@ body {
 
 .name {
     font-family: serif;
-    color: rgb(197, 255, 174);
+    color: rgb(255, 255, 255);
     text-shadow: 2px 2px 4px green;
 }
 
 .dialogsStyle {
     border-radius: 15px;     
     font-size: x-large;
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
 .dialogsStyle {
@@ -58,7 +58,7 @@ body {
     
     border-radius: 15px; 
     font-size: x-large;
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
 .attractionsStyle {
@@ -69,5 +69,23 @@ body {
     width: 700px;
     height: 600px;
 }
+
+.parkC {
+    color: rgb(0, 153, 0);
+}
+
+.attractionsC {
+    color: rgb(0, 153, 0);
+}
+
+.eatC {
+    color: rgb(0, 153, 0);
+}
+
+.title {
+    margin: auto;
+    border: double;
+}
+
 
 

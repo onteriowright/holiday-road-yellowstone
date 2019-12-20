@@ -197,6 +197,36 @@
       "attractionName": "Snake World",
       "eateryName": "McClard's BBQ",
       "id": 53
+    },
+    {
+      "parkName": "African American Civil War Memorial",
+      "attractionName": "Giant Tattoo Needle",
+      "eateryName": "Joe's Stone Crab",
+      "id": 54
+    },
+    {
+      "parkName": "Augusta Canal",
+      "attractionName": "Elvis Memorial Chapel",
+      "eateryName": "Occidental Grill & Seafood",
+      "id": 55
+    },
+    {
+      "parkName": "Big Cypress",
+      "attractionName": "Big White Shirt",
+      "eateryName": "El Charro Cafe",
+      "id": 56
+    },
+    {
+      "parkName": "Belmont-Paul Women's Equality",
+      "attractionName": "Snake World",
+      "eateryName": "McClard's BBQ",
+      "id": 57
+    },
+    {
+      "parkName": "Big Cypress",
+      "attractionName": "Cabazon Dinosaurs",
+      "eateryName": "Deer Park Tavern",
+      "id": 58
     }
   ]
 }
