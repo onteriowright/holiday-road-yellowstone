@@ -12,7 +12,7 @@ const AttractionsSelect = () => {
   const attractions = useAttractions()
 
   eventHub.addEventListener("change", changeEvent => {
-    if (changeEvent.target.classList.contains("dropDown")) {
+    if (changeEvent.target.classList.contains("dropdown")) {
       const selectedAttraction = changeEvent.target.value
       
 
@@ -39,7 +39,7 @@ const AttractionsSelect = () => {
   const render = (collectedAttractions) => {
 
     contentTarget.innerHTML = `
-            <select class="dropDown" id="attractionsSelect">
+            <select class="dropdown" id="attractionsSelect" class="saveButton">
     <option value="0">Please select a attraction...</option>
     
     

@@ -14,7 +14,9 @@ const saveItineraryComponent = () =>{
  
   eventHub.addEventListener("click", e =>{
    
-    if(e.target.id==="saveItinerary"){
+    if(e.target.id==="saveItinerary"
+    
+    ){
       const parkName=document.querySelector(".parkCard__name").textContent
       const attractionName=document.querySelector(".attractionCard__name").textContent
       const eateryName=document.querySelector(".eateryCard__name").textContent
@@ -28,9 +30,16 @@ const saveItineraryComponent = () =>{
       "attractionName":attractionName,
       "eateryName":eateryName
          
-    }
+    } 
     saveItinerary(newItinerary).then(render(newItinerary))
+
+
+    
   }
+
+
+
+
 })
 
 
@@ -46,3 +55,5 @@ const render = (collection) =>{
 
 
 export default saveItineraryComponent
+
+

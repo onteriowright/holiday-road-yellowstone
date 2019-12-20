@@ -11,25 +11,33 @@ import { getAttractions } from "./attractions/AttractionProvider.js";
 import { AttractionsListComponent } from "./attractions/AttractionsList.js";
 import { LearnMoreButton } from "./attractions/LearnMore.js";
 import saveItineraryComponent from "./SavedItinerary/savedItineraryList.js";
+// import { getWeather } from "./weather/WeatherProvider.js";
+import {EnableButtonEvent} from "./SavedItinerary/enableButton.js"
+
+
 
 saveItineraryComponent()
 
 getEateries()
-  .then(EaterySelectListcomponent)
+  .then(EaterySelectListcomponent).then(EnableButtonEvent)
   .then(EateriesListComponent)
   .then(DailogComponent)
 
 
 getParks()
-  .then(() => parksSelect())
+  .then(() => parksSelect()).then(EnableButtonEvent)
   .then(() => parkListComponent())
   .then(() => parkDialogEvents());
 
 getAttractions()
   .then(AttractionsSelect)
-  .then(AttractionsListComponent)
-  getItinerary().then(ItineraryListComponent);
+  .then(AttractionsListComponent).then(EnableButtonEvent)
+
+
+  
   
 getAttractions().then(LearnMoreButton);
+
+// getWeather()
 
 
