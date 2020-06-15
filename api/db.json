@@ -227,6 +227,12 @@
       "attractionName": "Cabazon Dinosaurs",
       "eateryName": "Deer Park Tavern",
       "id": 58
+    },
+    {
+      "parkName": "African American Civil War Memorial",
+      "attractionName": "Big White Shirt",
+      "eateryName": "El Charro Cafe",
+      "id": 59
     }
   ]
 }
